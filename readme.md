@@ -17,12 +17,12 @@ Este projeto implementa um serviço simples em Node.js usando `Express`, `Puppet
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/Gioestevam/validador-assinatura-gov
     ```
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd seu-repositorio
+    cd validador-assinatura-gov
     ```
 
 3. Instale as dependências do projeto:
