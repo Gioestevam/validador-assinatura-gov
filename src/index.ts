@@ -61,6 +61,9 @@ app.post('/verify-signature', (req: any, res: any) => {
                 } else {
                     res.send((await response.json())[0])
                 }
+
+                await browser.close();
+                
             } catch (err) {
                 console.error(err)
                 res.status(500).send(mapHandleError(500))  
