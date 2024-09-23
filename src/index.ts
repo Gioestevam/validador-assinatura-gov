@@ -75,3 +75,5 @@ app.post('/verify-signature', (req: any, res: any) => {
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`)
 })
+
+export default app
